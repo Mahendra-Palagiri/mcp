@@ -32,11 +32,10 @@ pip install -r requirements.txt
 
 ### Basics
 
-| Lesson | File | Notes |
-|--------|------|-------|
-| 01 — Hello World | [basics/server.py](basics/server.py) | Minimal server with one tool, tested via MCP Inspector |
-
-> Detailed walkthrough: [basics/server.md](basics/server.md)
+| Lesson | File | Docs | Notes |
+|--------|------|------|-------|
+| 01 — Hello World | [basics/1.server.py](basics/1.server.py) | [docs](basics/docs/server.md) | Minimal server with one tool, tested via MCP Inspector |
+| 02 — Multiple Tools + Parameters | [basics/2.tools.py](basics/2.tools.py) | [docs](basics/docs/tools.md) | Multiple tools, type hints, optional params, validation |
 
 ---
 
@@ -51,8 +50,8 @@ pip install -r requirements.txt
 
 ```bash
 # Run directly
-.venv/bin/python3 basics/server.py
+.venv/bin/python3 basics/1.server.py
 
 # Run with MCP Inspector (recommended for testing)
-npx @modelcontextprotocol/inspector .venv/bin/python3 basics/server.py
+npx @modelcontextprotocol/inspector .venv/bin/python3 basics/1.server.py
 ```
