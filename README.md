@@ -68,12 +68,12 @@ npx @modelcontextprotocol/inspector .venv/bin/python3 01_MCP_Primitives/01.serve
 |-----|-------|-------|------|-------|
 | 01 | 01_MCP_Primitives | Hello World — minimal server, one tool, string param | [01.server.py](01_MCP_Primitives/01.server.py) | [notes](docs/01_MCP_Primitives/01.server.md) |
 | 02 | 01_MCP_Primitives | Multiple Tools + Parameters — int, bool, optional params | [02.tools.py](01_MCP_Primitives/02.tools.py) | [notes](docs/01_MCP_Primitives/02.tools.md) |
+| 03 | 01_MCP_Primitives | MCP Resources — static & dynamic resources via `@mcp.resource()` | [03.resources.py](01_MCP_Primitives/03.resources.py) | [notes](docs/01_MCP_Primitives/03.resources.md) |
 
 ## Upcoming
 
 | Day | Phase | Topic |
 |-----|-------|-------|
-| 03 | 01_MCP_Primitives | MCP Resources — expose read-only data via `@mcp.resource()` |
 | 04 | 01_MCP_Primitives | MCP Prompts — reusable prompt templates via `@mcp.prompt()` |
 | 05 | 02_Real_World_Usage | Real-World Tool — connect to an external API (e.g. weather, GitHub) |
 | 06 | 02_Real_World_Usage | Transport Modes — `stdio` vs SSE/HTTP |
